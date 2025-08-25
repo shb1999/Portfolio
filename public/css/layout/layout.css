@@ -24,6 +24,7 @@ section {
     --space-top-desktop: var(--space-lg);
     --space-mobile: var(--space-xl);
     --space-desktop: var(--space-xxl);
+    background-color: #8C412E;
 
     + section {
         padding-top: var(--space-mobile);

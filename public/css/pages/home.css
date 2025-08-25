@@ -1,7 +1,7 @@
 /* ===== HOME PAGE STYLES ===== */
 /* Hero Section */
 .hero {
-    background-color: var(--color-bg-alt);
+    background-color: #373E46;
     text-align: center;
     padding: var(--space-xl) 0;
 
@@ -17,10 +17,10 @@
             font-size: 3.5rem;
         }
     }
-    
+
     .accent {
         display: block;
-        color: var(--color-primary);
+        background-color: #373E46;
         font-size: 2rem;
 
         @media (min-width: 768px) {

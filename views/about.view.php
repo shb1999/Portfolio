@@ -11,10 +11,10 @@ $this->extend('layout');
 <section class="page-header">
     <div class="container">
         <h1 class="page-heading">
-            About Me
+            Om mig
         </h1>
         <p class="page-intro">
-            Get to know more about my journey, skills, and passion for web development. I'm dedicated to creating elegant solutions to complex problems.
+            Dyk ned i min verden af webudvikling, hvor kreativitet møder kode. Jeg brænder for at skabe elegante løsninger på komplekse udfordringer.
         </p>
     </div>
 </section>
@@ -23,29 +23,20 @@ $this->extend('layout');
     <div class="container">
         <div class="about-content">
             <div class="about-text">
-                <h2 class="section-heading">Bio</h2>
+                <h2 class="section-heading">Om mig</h2>
                 <p>
-                    Hi, I'm a passionate web developer with a focus on building clean,
-                    efficient, and user-friendly applications. I specialize in PHP
-                    development and modern web technologies, with a particular interest
-                    in creating robust back-end solutions.
+                    Jeg er en passioneret webudvikler med fokus på at bygge rene, effektive og brugervenlige applikationer.
+                    Jeg har altid haft stor interesse for kodning og design. Jeg bruger meget af min fritid på at udvikle mig på det punkt,
+                    og blive endnu bedre.
                 </p>
                 <p>
-                    My journey in web development began with a fascination for problem-solving
-                    and has evolved into a deep appreciation for well-structured, maintainable code.
-                    I believe in writing code that not only works but is also easy to understand
-                    and maintain.
+                    Jeg er interesseret i en masse sport, som jeg også bruger en del tid på i min fritid
                 </p>
-                <p>
-                    When I'm not coding, I enjoy keeping up with the latest tech trends,
-                    contributing to open-source projects, and sharing knowledge with the
-                    developer community. I'm particularly excited about modern PHP practices,
-                    test-driven development, and building scalable applications.
-                </p>
+
             </div>
 
             <div class="about-image">
-                <img src="images/profile-portrait.jpg" alt="Headshot of Abigail looking suspicious" class="portrait-image">
+                <img src="images/billede.png" alt="Headshot of Abigail looking suspicious" class="portrait-image">
             </div>
         </div>
     </div>
@@ -57,12 +48,11 @@ $this->extend('layout');
         <div class="skill-items">
             <span class="skill-tag">HTML</span>
             <span class="skill-tag">CSS</span>
-            <span class="skill-tag">Photoshop</span>
-            <span class="skill-tag">Illustrator</span>
-            <span class="skill-tag">InDesign</span>
-            <span class="skill-tag">Webhosting</span>
-            <span class="skill-tag">Graphic Design</span>
-            <span class="skill-tag">Project Planning</span>
+            <span class="skill-tag">UX/UI design</span>
+            <span class="skill-tag">After effects</span>
+            <span class="skill-tag">Projekthåndtering og samarbejde</span>
+            <span class="skill-tag">Kommunikation</span>
+            <span class="skill-tag">Grafisk Design</span>
         </div>
     </div>
 </section>

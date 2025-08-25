@@ -24,22 +24,22 @@
                     <ul>
                         <li>
                             <a href="/">
-                                Home
+                                Hjem
                             </a>
                         </li>
                         <li>
                             <a href="/about">
-                                About
+                                Om
                             </a>
                         </li>
                         <li>
                             <a href="/projects">
-                                Projects
+                                Projekter
                             </a>
                         </li>
                         <li>
                             <a href="/contact">
-                                Contact
+                                Kontakt
                             </a>
                         </li>
                     </ul>
