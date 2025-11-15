@@ -56,16 +56,71 @@ class ProjectController extends Controller
                 technologies: 'PHP, MySQL, CSS Grid/Flexbox, Form Validation',
                 image: 'images/projects/guestbook.jpg',
                 code: 'https://github.com/madh-zealand/tba',
-                link: '#guestbook',
+                link: 'https://guestbook.sb98.dk/',
             ),
             new ProjectDto(
-                title: 'Browser Game',
+                title: 'Style switcher',
                 description: 'A fun and engaging browser-based game built with vanilla JavaScript. Implements game mechanics using the requestAnimationFrame API, features smooth animations, collision detection, and a scoring system. Demonstrates strong understanding of DOM manipulation and event handling.',
                 technologies: 'JavaScript, HTML Canvas, CSS Animations',
-                image: 'images/projects/webgame.jpg',
+                image: 'images/projects/styleswitcher.png',
                 code: 'https://github.com/madh-zealand/tba',
-                link: '#webgame',
+                link: 'https://styleswitcher.sb98.dk/',
+            ),
+             new ProjectDto(
+                 title: 'A/B test',
+                 description: 'A fun and engaging browser-based game built with vanilla JavaScript. Implements game mechanics using the requestAnimationFrame API, features smooth animations, collision detection, and a scoring system. Demonstrates strong understanding of DOM manipulation and event handling.',
+                 technologies: 'JavaScript, HTML Canvas, CSS Animations',
+                 image: 'images/projects/styleswitcher.png',
+                 code: 'https://github.com/madh-zealand/tba',
+                 link: 'https://abtest.sb98.dk/',
+             ),
+             new ProjectDto(
+                 title: 'Projectpræsentation',
+                 description: 'A fun and engaging browser-based game built with vanilla JavaScript. Implements game mechanics using the requestAnimationFrame API, features smooth animations, collision detection, and a scoring system. Demonstrates strong understanding of DOM manipulation and event handling.',
+                 technologies: 'JavaScript, HTML Canvas, CSS Animations',
+                 image: 'images/projects/styleswitcher.png',
+                 code: 'https://github.com/madh-zealand/tba',
+                 link: 'https://presentation.sb98.dk/',
+             ),
+
+             new ProjectDto(
+                 title: 'MiniCRM',
+                 description: 'A fun and engaging browser-based game built with vanilla JavaScript. Implements game mechanics using the requestAnimationFrame API, features smooth animations, collision detection, and a scoring system. Demonstrates strong understanding of DOM manipulation and event handling.',
+                 technologies: 'JavaScript, HTML Canvas, CSS Animations',
+                 image: 'images/projects/styleswitcher.png',
+                 code: 'https://github.com/madh-zealand/tba',
+                 link: 'https://mini-crm.sb98.dk/login',
+             ),
+
+             new ProjectDto(
+                 title: 'UI-widget',
+                 description: 'A fun and engaging browser-based game built with vanilla JavaScript. Implements game mechanics using the requestAnimationFrame API, features smooth animations, collision detection, and a scoring system. Demonstrates strong understanding of DOM manipulation and event handling.',
+                 technologies: 'JavaScript, HTML Canvas, CSS Animations',
+                 image: 'images/projects/styleswitcher.png',
+                 code: 'https://github.com/madh-zealand/tba',
+                 link: 'https://widget.sb98.dk/',
+             ),
+
+            new ProjectDto(
+                title: 'Webspil',
+                description: 'A fun and engaging browser-based game built with vanilla JavaScript. Implements game mechanics using the requestAnimationFrame API, features smooth animations, collision detection, and a scoring system. Demonstrates strong understanding of DOM manipulation and event handling.',
+                technologies: 'JavaScript, HTML Canvas, CSS Animations',
+                image: 'images/projects/styleswitcher.png',
+                code: 'https://github.com/madh-zealand/tba',
+                link: 'https://webspil.sb98.dk/',
+            ),
+
+            new ProjectDto(
+                title: 'Storyboard fremviser',
+                description: 'A fun and engaging browser-based game built with vanilla JavaScript. Implements game mechanics using the requestAnimationFrame API, features smooth animations, collision detection, and a scoring system. Demonstrates strong understanding of DOM manipulation and event handling.',
+                technologies: 'JavaScript, HTML Canvas, CSS Animations',
+                image: 'images/projects/styleswitcher.png',
+                code: 'https://github.com/madh-zealand/tba',
+                link: '',
             )
+
+
+
         ];
     }
 }
