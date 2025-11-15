@@ -116,7 +116,7 @@ class ProjectController extends Controller
                 technologies: 'JavaScript, HTML Canvas, CSS Animations',
                 image: 'images/projects/styleswitcher.png',
                 code: 'https://github.com/madh-zealand/tba',
-                link: '',
+                link: 'https://storyboard-fremviser.sb98.dk/',
             )
 
 
