@@ -60,7 +60,7 @@ class ProjectController extends Controller
             ),
             new ProjectDto(
                 title: 'Style switcher',
-                description: 'Jeg har tilføjet et nyt tema ved at oprette .theme-forest med egne farvevariabler og knap-styling samt registreret temaet i JavaScript. Derudover har jeg lavet et nyt HTML-element, som skifter farver efter det aktive tema ved hjælp af CSS-variablerne. Elementet følger således sidens tema og kan også indeholde sin egen custom styling. Til sidst har jeg tilføjet en tæller i JavaScript, som holder styr på, hvor mange gange temaet er blevet skiftet.',
+                description: 'Jeg har tilføjet et nyt tema ved at oprette .theme-ocean med egne farvevariabler og knap-styling samt registreret temaet i JavaScript. Derudover har jeg lavet et nyt HTML-element, som skifter farver efter det aktive tema ved hjælp af CSS-variablerne. Elementet følger således sidens tema og kan også indeholde sin egen custom styling. Til sidst har jeg tilføjet en tæller i JavaScript, som holder styr på, hvor mange gange temaet er blevet skiftet.',
                 technologies: 'JavaScript, HTML Canvas, CSS Animations',
                 image: 'images/projects/styleswitcher.png',
                 code: 'https://github.com/shb1999/Style-Switcher',
