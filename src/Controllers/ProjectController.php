@@ -75,18 +75,18 @@ class ProjectController extends Controller
                  link: 'https://abtest.sb98.dk/',
              ),
              new ProjectDto(
-                 title: 'Projectpræsentation',
-                 description: '',
-                 technologies: 'JavaScript, HTML Canvas, CSS Animations',
-                 image: 'images/projects/styleswitcher.png',
+                 title: 'Projektpræsentation',
+                 description: 'Under Construction',
+                 technologies: '',
+                 image: 'images/projects/Projectpresentation.png',
                  code: 'https://github.com/shb1999/presentation.git',
                  link: 'https://presentation.sb98.dk/',
              ),
 
              new ProjectDto(
                  title: 'MiniCRM',
-                 description: '',
-                 technologies: 'JavaScript, HTML Canvas, CSS Animations',
+                 description: 'Under Construction',
+                 technologies: '',
                  image: 'images/projects/Minicrm.png',
                  code: 'https://github.com/shb1999/mini-crm.git',
                  link: 'https://mini-crm.sb98.dk/login',
@@ -94,9 +94,9 @@ class ProjectController extends Controller
 
              new ProjectDto(
                  title: 'UI-widget',
-                 description: '',
+                 description: 'Jeg har udskiftet den oprindelige widget med min egen knap-widget og lavet min egen HTML-markup til den. I Tweakpane har jeg tilføjet simple indstillinger, så man kan ændre knappens tekst, baggrundsfarve, tekstfarve og hjørneradius. Generatoren indsætter automatisk den genererede knap i preview-området, hver gang man ændrer en indstilling. Derudover har jeg tilføjet en kontrol, der gør det muligt også at ændre størrelsen på knappen.',
                  technologies: 'JavaScript, HTML Canvas, CSS Animations',
-                 image: 'images/projects/styleswitcher.png',
+                 image: 'images/projects/Widget.png',
                  code: 'https://github.com/shb1999/widget.git',
                  link: 'https://widget.sb98.dk/',
              ),
