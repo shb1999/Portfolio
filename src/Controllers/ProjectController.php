@@ -53,7 +53,7 @@ class ProjectController extends Controller
             new ProjectDto(
                 title: 'Gæstebog',
                 description: 'Jeg har personliggjort gæstebogen ved at opdatere teksterne og ændre designet, så den passer bedre til mig. Derudover har jeg tilføjet et ekstra felt, som både valideres, gemmes i databasen og huskes via en cookie. Jeg har også udvidet visningen, så det nye felt vises sammen med beskederne. Til sidst har jeg lavet en funktion, der automatisk konverterer tekstbaserede smileys til emojis, når beskederne vises.',
-                technologies: 'PHP, MySQL, CSS Grid/Flexbox, Form Validation',
+                technologies: 'HTML, CSS, PHP, MySQL, Cookies',
                 image: 'images/projects/Guestbook.png',
                 code: 'https://github.com/shb1999/Guestbook.git',
                 link: 'https://guestbook.sb98.dk/',
@@ -61,7 +61,7 @@ class ProjectController extends Controller
             new ProjectDto(
                 title: 'Style switcher',
                 description: 'Jeg har tilføjet et nyt tema ved at oprette .theme-ocean med egne farvevariabler og knap-styling samt registreret temaet i JavaScript. Derudover har jeg lavet et nyt HTML-element, som skifter farver efter det aktive tema ved hjælp af CSS-variablerne. Elementet følger således sidens tema og kan også indeholde sin egen custom styling. Til sidst har jeg tilføjet en tæller i JavaScript, som holder styr på, hvor mange gange temaet er blevet skiftet.',
-                technologies: 'JavaScript, HTML Canvas, CSS Animations',
+                technologies: 'HTML, CSS og JavaScript',
                 image: 'images/projects/styleswitcher.png',
                 code: 'https://github.com/shb1999/Style-Switcher',
                 link: 'https://styleswitcher.sb98.dk/',
@@ -69,7 +69,7 @@ class ProjectController extends Controller
              new ProjectDto(
                  title: 'A/B test',
                  description: 'Jeg har lavet en A/B-test på knapperne, så de vises i forskellige udgaver med varieret farve og tekst. I en normal browser gemmes den viste udgave i en cookie, men i inkognito kan der vises en anden version, fordi der ikke lagres cookies.',
-                 technologies: 'JavaScript, HTML Canvas, CSS Animations',
+                 technologies: 'HTML, CSS, PHP, JavaScript',
                  image: 'images/projects/ABtest.png',
                  code: 'https://github.com/shb1999/abtest.git',
                  link: 'https://abtest.sb98.dk/',
@@ -95,7 +95,7 @@ class ProjectController extends Controller
              new ProjectDto(
                  title: 'UI-widget',
                  description: 'Jeg har udskiftet den oprindelige widget med min egen knap-widget og lavet min egen HTML-markup til den. I Tweakpane har jeg tilføjet simple indstillinger, så man kan ændre knappens tekst, baggrundsfarve, tekstfarve og hjørneradius. Generatoren indsætter automatisk den genererede knap i preview-området, hver gang man ændrer en indstilling. Derudover har jeg tilføjet en kontrol, der gør det muligt også at ændre størrelsen på knappen.',
-                 technologies: 'JavaScript, HTML Canvas, CSS Animations',
+                 technologies: 'HTML, CSS, JavaScript, Tweakpane',
                  image: 'images/projects/Widget.png',
                  code: 'https://github.com/shb1999/widget.git',
                  link: 'https://widget.sb98.dk/',
@@ -103,8 +103,8 @@ class ProjectController extends Controller
 
             new ProjectDto(
                 title: 'Webspil',
-                description: '',
-                technologies: 'JavaScript, HTML Canvas, CSS Animations',
+                description: 'Under Construction',
+                technologies: '',
                 image: 'images/projects/Webspil.png',
                 code: 'https://github.com/shb1999/webspil',
                 link: 'https://webspil.sb98.dk/',
@@ -112,8 +112,8 @@ class ProjectController extends Controller
 
             new ProjectDto(
                 title: 'Storyboard fremviser',
-                description: '',
-                technologies: 'JavaScript, HTML Canvas, CSS Animations',
+                description: 'Jeg har udvidet storyboardet, så brugeren nu kan skifte mellem 1, 2, 3 og 4 kolonner direkte i UI’et, og layoutet opdaterer korrekt i både CSS og JavaScript. Derudover har jeg gjort, at storyboardet gemmer det valgte antal kolonner i localStorage, så layoutet automatisk gendannes næste gang siden åbnes. De rigtige kolonne-knapper markeres også som aktive ud fra den gemte værdi. Til sidst har jeg tilføjet en toast-popup, som kort viser beskeden “Layout gemt”, når brugerens valg bliver lagret.',
+                technologies: 'HTML, CSS, JavaScript, LocalStorage',
                 image: 'images/projects/Storyboard.png',
                 code: 'https://github.com/shb1999/Storyboard-fremviser.git',
                 link: 'https://storyboard-fremviser.sb98.dk/',
